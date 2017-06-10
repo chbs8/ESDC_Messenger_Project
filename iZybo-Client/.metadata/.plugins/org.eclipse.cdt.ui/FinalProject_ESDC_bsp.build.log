@@ -1,0 +1,6 @@
+12:30:58 **** Auto Build of project FinalProject_ESDC_bsp ****
+make -k all 
+'Finished building libraries'
+
+12:30:58 Build Finished (took 75ms)
+

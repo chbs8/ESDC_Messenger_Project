@@ -1,0 +1,72 @@
+#include <stdio.h>
+#include <string.h>
+
+#include "lwip/inet.h"
+#include "lwip/sockets.h"
+#include "lwipopts.h"
+#ifdef __arm__
+#include "xil_printf.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#endif
+
+#define SEND_BUFSIZE (1440)
+
+static char send_buf[SEND_BUFSIZE];
+
+void print_ip();
+
+void
+print_txperf_app_header()
+{
+        xil_printf("%s\r\n", "iperf Server should be running on the PC BEFORE launching app");
+        xil_printf("%s\r\n","$ iperf -s -i 5 -w 64k (on PC)");
+}
+
+void tx_application_thread()
+{
+   struct ip_addr servaddr;
+   int i, sock;
+   struct sockaddr_in serv_addr;
+
+   /* Set here the host (PC) IP address */
+   // IP4_ADDR(&servaddr,  147, 83, 81, 230); //Address 10
+   IP4_ADDR(&servaddr,  147, 83, 81, 229); //Address 10
+
+   /* initialize data buffer being sent */
+   for (i = 0; i < SEND_BUFSIZE; i++)
+      send_buf[i] = (i % 10) + '0';
+
+   if ((sock = lwip_socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+      xil_printf("error creating socket\r\n");
+#ifdef OS_IS_FREERTOS
+      vTaskDelete(NULL);
+#endif
+      return;
+   }
+
+   memset((void*)&serv_addr, 0, sizeof serv_addr);
+   serv_addr.sin_family = AF_INET;
+   serv_addr.sin_port = htons(5001);
+   serv_addr.sin_addr.s_addr = servaddr.addr;
+
+    print_ip("connect to  ", &servaddr);
+    xil_printf("... ");
+
+   if (lwip_connect(sock, (struct sockaddr *)&serv_addr, sizeof (serv_addr)) < 0) {
+      xil_printf("error in connect\r\n");
+#ifdef OS_IS_FREERTOS
+      vTaskDelete(NULL);
+#endif
+      return;
+   }
+   print("Connected\n\r");
+
+   while (lwip_write(sock, send_buf, SEND_BUFSIZE) >= 0) {
+      ;
+   }
+
+   print("TX perf stopped\r\n");
+   vTaskDelete(NULL);
+
+}

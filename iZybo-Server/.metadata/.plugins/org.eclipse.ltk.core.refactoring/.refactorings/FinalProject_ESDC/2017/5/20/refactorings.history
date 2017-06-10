@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FinalProject_ESDC/src/udp_izybo&apos; to &apos;udp_izybo.c&apos;" description="Rename resource &apos;udp_izybo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/udp_izybo" name="udp_izybo.c" stamp="1494921517932" updateReferences="true"/>
+</session>

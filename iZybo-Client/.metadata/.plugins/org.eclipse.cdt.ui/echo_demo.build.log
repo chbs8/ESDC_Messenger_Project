@@ -1,0 +1,81 @@
+10:53:35 **** Auto Build of configuration Debug for project echo_demo ****
+make all 
+'Building file: ../src/dispatch.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../echo_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+'Finished building: ../src/dispatch.c'
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../echo_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.d" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../echo_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../dispatch.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../echo_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"dispatch.d" -MT"dispatch.d" -o "dispatch.o" "../dispatch.c"
+'Finished building: ../dispatch.c'
+' '
+'Building file: ../echo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../echo_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"echo.d" -MT"echo.d" -o "echo.o" "../echo.c"
+'Finished building: ../echo.c'
+' '
+'Building file: ../main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../echo_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: echo_demo.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../echo_demo_bsp/ps7_cortexa9_0/lib -o "echo_demo.elf"  ./src/dispatch.o ./src/echo.o ./src/main.o  ./dispatch.o ./echo.o ./main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./dispatch.o: In function `print_headers':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../dispatch.c:38: multiple definition of `print_headers'
+./src/dispatch.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/dispatch.c:38: first defined here
+./dispatch.o: In function `launch_app_threads':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../dispatch.c:60: multiple definition of `launch_app_threads'
+./src/dispatch.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/dispatch.c:60: first defined here
+./echo.o:(.data+0x0): multiple definition of `echo_port'
+./src/echo.o:(.data+0x0): first defined here
+./echo.o: In function `print_echo_app_header':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../echo.c:37: multiple definition of `print_echo_app_header'
+./src/echo.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/echo.c:37: first defined here
+./echo.o: In function `process_echo_request':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../echo.c:47: multiple definition of `process_echo_request'
+./src/echo.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/echo.c:47: first defined here
+./echo.o: In function `echo_application_thread':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../echo.c:99: multiple definition of `echo_application_thread'
+./src/echo.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/echo.c:83: first defined here
+./main.o: In function `print_ip':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:43: multiple definition of `print_ip'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:43: first defined here
+./main.o: In function `print_ip_settings':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:50: multiple definition of `print_ip_settings'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:50: first defined here
+./main.o: In function `main':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:58: multiple definition of `main'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:58: first defined here
+./main.o: In function `main_thread':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:114: multiple definition of `main_thread'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:114: first defined here
+./main.o: In function `network_thread':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:71: multiple definition of `network_thread'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:71: first defined here
+./main.o: In function `vApplicationMallocFailedHook':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:146: multiple definition of `vApplicationMallocFailedHook'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:146: first defined here
+./main.o: In function `vApplicationStackOverflowHook':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:164: multiple definition of `vApplicationStackOverflowHook'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:164: first defined here
+./main.o: In function `vApplicationSetupHardware':
+C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../main.c:179: multiple definition of `vApplicationSetupHardware'
+./src/main.o:C:\Users\chri.ballesteros\workspace\Lab2_ESDC\Lab2_ESDC.sdk\echo_demo\Debug/../src/main.c:179: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [echo_demo.elf] Error 1
+
+10:53:37 Build Finished (took 1s.667ms)
+

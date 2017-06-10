@@ -1,0 +1,977 @@
+11:08:39 INFO  : Processing command line option -hwspec L:/Desktop/ESDC/FinalProject/FinalProject/FinalProject.sdk/design_1_wrapper.hdf.
+11:08:45 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:09:17 INFO  : Saving repository preferences.
+11:09:17 INFO  : Reading in cores from local repositories: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+11:09:40 INFO  : Cleaning BSP projects in the workspace.
+11:09:41 INFO  : Saving repository preferences.
+11:09:50 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+11:11:01 INFO  : Refreshed build settings on project FinalProject_ESDC
+11:11:42 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:12:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:39 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:13:47 INFO  : ps7_init is completed.
+11:13:47 INFO  : ps7_post_config is completed.
+11:13:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:15:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:29:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:29:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:29:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:33:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:33:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:35:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:35:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:38:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:40:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:40:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:41:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:41:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:42:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:47:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:47:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:58:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:59:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:00:14 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+12:00:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:17:23 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:18:06 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:49:42 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:50:05 INFO  : ps7_init is completed.
+10:50:05 INFO  : ps7_post_config is completed.
+10:50:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:51:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:53:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:58:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:58:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:08:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:08:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:09:14 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:09:41 INFO  : ps7_init is completed.
+11:09:41 INFO  : ps7_post_config is completed.
+11:09:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:10:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:15:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:15:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:27:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:28:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:28:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:30:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:35:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:39:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:47:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:51:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:09:14 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:09:26 INFO  : ps7_init is completed.
+12:09:26 INFO  : ps7_post_config is completed.
+12:09:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:17:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:21:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:24:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:25:32 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:28:10 INFO  : ps7_init is completed.
+12:28:11 INFO  : ps7_post_config is completed.
+12:28:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:08 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:31:22 INFO  : ps7_init is completed.
+12:31:22 INFO  : ps7_post_config is completed.
+12:31:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:37:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:43:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:45:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:49:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:57:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:57:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:03:58 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:04:18 INFO  : ps7_init is completed.
+13:04:18 INFO  : ps7_post_config is completed.
+13:04:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:07:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:07:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:11:33 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+13:11:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:28:44 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:29:39 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+09:30:22 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:49:09 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:49:16 INFO  : ps7_init is completed.
+09:49:16 INFO  : ps7_post_config is completed.
+09:49:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:50:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:50:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:05:14 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:05:27 INFO  : ps7_init is completed.
+10:05:27 INFO  : ps7_post_config is completed.
+10:05:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:10:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:10:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:15:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:15:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:17:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:20:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:22:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:22:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:31:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:31:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:52:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:52:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:53:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:55:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:57:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:57:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:58:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:05:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:49:19 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:50:51 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:50:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:50:53 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+11:52:00 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:52:02 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:52:02 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+11:53:25 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:53:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:53:27 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+11:54:03 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+11:55:25 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:55:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:55:27 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:00:06 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:00:07 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+12:00:08 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:00:51 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:00:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+12:00:53 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:01:17 ERROR : The Hardware Project referenced by this BSP (FinalProject_ESDC_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+12:05:57 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:06:05 INFO  : ps7_init is completed.
+12:06:05 INFO  : ps7_post_config is completed.
+12:06:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:06:06 ERROR : No such port: COM12
+12:06:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:16:30 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:17:12 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+12:17:12 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+12:17:12 ERROR : Disconnect target failed.
+12:17:12 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+12:17:41 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:17:42 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+12:17:47 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+12:17:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:17:54 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:17:55 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+12:18:12 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:18:15 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:18:15 ERROR :  [Hsi 55-1550] Repository Directory H:\ESDC\XAPP1026\zc702_GigE doesn't exist in the disk
+12:18:15 ERROR : Internal error. Unable to add H:\ESDC\XAPP1026\zc702_GigE as a repository.
+12:18:15 ERROR :  License Feature SDK is not available.
+12:18:38 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:18:38 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:18:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+12:18:41 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:20:51 INFO  : Saving repository preferences.
+12:20:51 INFO  : Reading in cores from local repositories: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:21:31 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+12:21:31 INFO  : Cleaning BSP projects in the workspace.
+12:22:17 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:22:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:25:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:25:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:26:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:27:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:28:06 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+12:28:06 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+12:28:06 ERROR : Disconnect target failed.
+12:28:06 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+12:28:12 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:28:12 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+12:28:17 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:28:17 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+12:28:25 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:28:25 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+12:28:28 ERROR : FPGA Configuration failed.Lost communication with jtag cable. Run "xdisconnect -cable"
+                           and start over again
+
+
+12:28:38 ERROR : FPGA Configuration failed.Lost communication with jtag cable. Run "xdisconnect -cable"
+                           and start over again
+
+
+12:28:43 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+12:28:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:29:04 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:29:04 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:29:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+12:29:06 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+12:30:46 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+12:30:59 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:31:21 INFO  : ps7_init is completed.
+12:31:21 INFO  : ps7_post_config is completed.
+12:31:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:36:53 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:37:00 INFO  : ps7_init is completed.
+12:37:00 INFO  : ps7_post_config is completed.
+12:37:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:38:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:52:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:55:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:57:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:58:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:03:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:06:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:08:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:14:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:16:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:19:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:21:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:23:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:30 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:43:37 INFO  : ps7_init is completed.
+13:43:37 INFO  : ps7_post_config is completed.
+13:43:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:44:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:47:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:48:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:49:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:23:03 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:23:51 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:24:30 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+10:25:38 INFO  : Saving repository preferences.
+10:25:42 INFO  : Saving repository preferences.
+10:30:37 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:31:21 INFO  : ps7_init is completed.
+10:31:21 INFO  : ps7_post_config is completed.
+10:31:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:31:22 ERROR : No such port: COM21
+10:31:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\adria.gil\Desktop\FinalProject\FinalProject_ESDC_bsp\system.mss
+10:31:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\adria.gil\Desktop\FinalProject\FinalProject_ESDC_bsp\system.mss
+10:32:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:32:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:36:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:39:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:41:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:43:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:43:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:45:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:03:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:07:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:08:57 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:09:06 INFO  : ps7_init is completed.
+11:09:06 INFO  : ps7_post_config is completed.
+11:09:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:12:38 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:12:53 INFO  : ps7_init is completed.
+11:12:53 INFO  : ps7_post_config is completed.
+11:12:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:14:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:17:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:18:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:21:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:22:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:24:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:26:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:28:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:28:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:30:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:30:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:34:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:36:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:41:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:49:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:50:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:50:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:53:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:54:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:57:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:01:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:04:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:10:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:11:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:11:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:13:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:13:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:15:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:15:21 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:15:29 INFO  : ps7_init is completed.
+12:15:29 INFO  : ps7_post_config is completed.
+12:15:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:19:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:33:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:33:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:47:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:49:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:51:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:52:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:54:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:57:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:58:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:59:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:59:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:01:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:01:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:02:22 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:02:30 INFO  : ps7_init is completed.
+13:02:30 INFO  : ps7_post_config is completed.
+13:02:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:08:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:09:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\adria.gil\Desktop\FinalProject\FinalProject_ESDC_bsp\system.mss
+13:09:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\adria.gil\Desktop\FinalProject\FinalProject_ESDC_bsp\system.mss
+13:09:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\adria.gil\Desktop\FinalProject\FinalProject_ESDC_bsp\system.mss
+13:09:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:10:32 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+13:10:32 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:10:43 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:11:04 INFO  : ps7_init is completed.
+13:11:04 INFO  : ps7_post_config is completed.
+13:11:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:12:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:13:31 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+13:13:31 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:13:51 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+13:14:13 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:14:33 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:14:40 INFO  : ps7_init is completed.
+13:14:40 INFO  : ps7_post_config is completed.
+13:14:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:16:46 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+13:16:46 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:16:59 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:17:06 INFO  : ps7_init is completed.
+13:17:06 INFO  : ps7_post_config is completed.
+13:17:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:21:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:21:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:27:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:09:01 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:09:37 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+09:09:56 ERROR :  [Hsi 55-1433] Error boost::filesystem::status: The semaphore timeout period has expired: "H:\ESDC\XAPP1026\zc702_GigE\SW\raw_apps_bsp\system.mss"
+ [Hsi 55-1433] Error boost::filesystem::directory_iterator::operator++: The network path was not found: "H:\ESDC\XAPP1026\zc702_GigE\SW"
+ [Hsi 55-1433] Error boost::filesystem::directory_iterator::operator++: The network path was not found: "H:\ESDC\XAPP1026\zc702_GigE"
+09:09:56 ERROR :  [Hsi 55-1550] Repository Directory H:\ESDC\XAPP1026\zc702_GigE\repo doesn't exist in the disk
+09:09:56 ERROR : Internal error. Unable to add H:\ESDC\XAPP1026\zc702_GigE\repo as a repository.
+09:09:56 ERROR :  [Hsi 55-1550] Repository Directory H:\ESDC\XAPP1026\zc702_GigE doesn't exist in the disk
+09:09:56 ERROR : Internal error. Unable to add H:\ESDC\XAPP1026\zc702_GigE as a repository.
+09:09:56 ERROR :  License Feature SDK is not available.
+09:11:09 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+09:11:10 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+09:11:11 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+09:11:39 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+09:11:47 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:21:38 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:39:01 INFO  : ps7_init is completed.
+09:39:01 INFO  : ps7_post_config is completed.
+09:39:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:39:02 ERROR : No such port: COM18
+09:39:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:46:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:53:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:53:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:55:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:03:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:04:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:05:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:07:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:07:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:19:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:26:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:32:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:34:26 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:34:35 INFO  : ps7_init is completed.
+10:34:35 INFO  : ps7_post_config is completed.
+10:34:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:38:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:39:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:40:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:55:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:56:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:06:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:07:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:11:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:11:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:54 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:14:01 INFO  : ps7_init is completed.
+11:14:01 INFO  : ps7_post_config is completed.
+11:14:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:16:21 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:16:48 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:16:55 INFO  : ps7_init is completed.
+11:16:55 INFO  : ps7_post_config is completed.
+11:16:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:17:44 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:17:51 INFO  : ps7_init is completed.
+11:17:52 INFO  : ps7_post_config is completed.
+11:17:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:20:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:20:20 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:21:27 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:23:38 INFO  : ps7_init is completed.
+11:23:38 INFO  : ps7_post_config is completed.
+11:23:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:26:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:27:15 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:27:16 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:27:17 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+11:27:54 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+11:38:55 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:39:01 INFO  : ps7_init is completed.
+11:39:01 INFO  : ps7_post_config is completed.
+11:39:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:41:04 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:41:28 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:41:37 INFO  : ps7_init is completed.
+11:41:37 INFO  : ps7_post_config is completed.
+11:41:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:42:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:59 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:47:43 INFO  : ps7_init is completed.
+11:47:43 INFO  : ps7_post_config is completed.
+11:47:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:50:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:34 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:51:47 INFO  : ps7_init is completed.
+11:51:47 INFO  : ps7_post_config is completed.
+11:51:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:53:48 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:54:35 INFO  : ps7_init is completed.
+11:54:35 INFO  : ps7_post_config is completed.
+11:54:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:55:31 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:55:38 INFO  : ps7_init is completed.
+11:55:38 INFO  : ps7_post_config is completed.
+11:55:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:57:51 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:58:03 INFO  : ps7_init is completed.
+11:58:03 INFO  : ps7_post_config is completed.
+11:58:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:34 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:58:44 INFO  : ps7_init is completed.
+11:58:44 INFO  : ps7_post_config is completed.
+11:58:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:02:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:10:20 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:10:49 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:11:27 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+10:13:32 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:13:42 INFO  : ps7_init is completed.
+10:13:43 INFO  : ps7_post_config is completed.
+10:13:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:14:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:15:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:16:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:38 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:17:45 INFO  : ps7_init is completed.
+10:17:45 INFO  : ps7_post_config is completed.
+10:17:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:19:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:02 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:20:36 INFO  : ps7_init is completed.
+10:20:36 INFO  : ps7_post_config is completed.
+10:20:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:22:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:35 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:25:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:26:42 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:26:42 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:28:17 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+10:28:37 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:32:17 INFO  : ps7_init is completed.
+10:32:17 INFO  : ps7_post_config is completed.
+10:32:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:33:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:34:36 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:34:36 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:35:13 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+10:36:17 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:36:30 INFO  : ps7_init is completed.
+10:36:30 INFO  : ps7_post_config is completed.
+10:36:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:37:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:40:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:43:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:44:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:44:42 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:44:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:45:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:45:43 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:46:20 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+10:46:49 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:48:08 INFO  : ps7_init is completed.
+10:48:08 INFO  : ps7_post_config is completed.
+10:48:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:13 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+10:50:13 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:50:21 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+10:50:26 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:50:46 INFO  : ps7_init is completed.
+10:50:46 INFO  : ps7_post_config is completed.
+10:50:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:51:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:53:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:53:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:54:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:54:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:56:31 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:56:31 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+10:57:27 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:58:10 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+10:58:23 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:58:30 INFO  : ps7_init is completed.
+10:58:30 INFO  : ps7_post_config is completed.
+10:58:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:00:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:08:46 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:08:47 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+		 H:\ESDC\XAPP1026\zc702_GigE
+11:09:22 WARN  :  [Hsi 55-1429] Directory H:\ESDC\XAPP1026\zc702_GigE is already exist in the Repository list
+11:58:32 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:58:39 INFO  : ps7_init is completed.
+11:58:39 INFO  : ps7_post_config is completed.
+11:58:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:59:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:01:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:02:08 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:02:15 INFO  : ps7_init is completed.
+12:02:15 INFO  : ps7_post_config is completed.
+12:02:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:03:46 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:03:53 INFO  : ps7_init is completed.
+12:03:53 INFO  : ps7_post_config is completed.
+12:03:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:10 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:05:39 INFO  : ps7_init is completed.
+12:05:39 INFO  : ps7_post_config is completed.
+12:05:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:09 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/FinalProject/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:08:21 INFO  : ps7_init is completed.
+12:08:21 INFO  : ps7_post_config is completed.
+12:08:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:20:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:28:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:38:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

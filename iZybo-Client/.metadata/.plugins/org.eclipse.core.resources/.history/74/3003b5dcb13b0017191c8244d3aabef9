@@ -1,0 +1,253 @@
+/*
+ * iZybo.c
+
+ *
+ *  Created on: 09/05/2017
+ *      Author: adria.gil
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+
+#include "lwip/inet.h"
+#include "lwip/sockets.h"
+#include "lwip/sys.h"
+#include "lwipopts.h"
+#include "lwip/opt.h"
+
+#include "config_apps.h"
+#ifdef __arm__
+#include "xil_printf.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#endif
+
+#define BUFSIZE (100)
+
+static char recv_buf[BUFSIZE];
+static char send_buf[BUFSIZE];
+// static char ack_buf[BUFSIZE] = {"ACK"};
+
+u32_t write_port1 = 5001;
+u32_t read_port1 = 2222;
+u32_t opt;
+
+
+void iZybo_server_thread()
+{
+	int sock1 = 0, sock2 = 0, sd1 = 0, sd2 = 0;
+	struct sockaddr_in addressR, remoteR, addressW, remoteW;
+	int size;
+
+	int nr, nw, i = 1;
+
+	bzero(recv_buf, BUFSIZE);
+	bzero(send_buf, BUFSIZE);
+	memset(recv_buf, '\0', BUFSIZE);
+	memset(send_buf, '\0', BUFSIZE);
+
+	if ((sock1 = lwip_socket(AF_INET, SOCK_STREAM, 0)) < 0)
+		return;
+
+	addressR.sin_family = AF_INET;
+	addressR.sin_port = htons(read_port1);
+	addressR.sin_addr.s_addr = INADDR_ANY;
+
+	if (lwip_bind(sock1, (struct sockaddr *)&addressR, sizeof (addressR)) < 0)
+		return;
+
+	lwip_listen(sock1, 0);
+
+	xil_printf("Waiting User 2 to connect... reading side\r\n");
+
+	size = sizeof(remoteR);
+
+	if ((sd1 = lwip_accept(sock1, (struct sockaddr *)&remoteR, (socklen_t *)&size)) > 0) {
+		xil_printf("Read socket accepted: %d\r\n", sd1);
+	} else {
+		xil_printf("Error on accept! Number %d\r\n", sd1);
+	}
+	lwip_read(sd1, recv_buf, BUFSIZE); xil_printf("ACK Read: %s\r\n",recv_buf);
+
+
+//	Code to Use sock2 as server
+
+	if ((sock2 = lwip_socket(AF_INET, SOCK_STREAM, 0)) < 0)
+			return;
+
+	addressW.sin_family = AF_INET;
+	addressW.sin_port = htons(write_port1);
+	addressW.sin_addr.s_addr = INADDR_ANY;
+
+	if (lwip_bind(sock2, (struct sockaddr *)&addressW, sizeof (addressW)) < 0)
+		return;
+
+	lwip_listen(sock2, 0);
+
+	xil_printf("Waiting User 2 to connect... writing side\r\n");
+
+	size = sizeof(remoteW);
+
+	if ((sd2 = lwip_accept(sock2, (struct sockaddr *)&remoteW, (socklen_t *)&size)) > 0) {
+		xil_printf("Write socket accepted: %d\r\n", sd2);
+	} else {
+		xil_printf("Error on accept! Number %d\r\n", sd2);
+	}
+	lwip_read(sd2, recv_buf, BUFSIZE); xil_printf("ACK Read: %s\r\n",recv_buf);
+
+//	Code to Use sock2 as client
+
+//	struct sockaddr_in serv_addr;
+//	struct ip_addr servaddr;
+//
+//	IP4_ADDR(&servaddr, 147, 83, 81, 226);
+//
+//	if ((sd2 = lwip_socket(AF_INET, SOCK_STREAM, 0)) < 0)
+//		return;
+//
+//	memset((void*)&serv_addr, 0, sizeof serv_addr);
+//	serv_addr.sin_addr.s_addr = servaddr.addr;
+//	serv_addr.sin_family = AF_INET;
+//	serv_addr.sin_port = htons(write_port1);
+//
+//	xil_printf("Client socket initialized -> Connecting to 147.83.81.226\r\n");
+//
+//	/*Connect to the server*/
+//	if (lwip_connect(sd2, (struct sockaddr*)&serv_addr, sizeof(serv_addr)) < 0) {
+//		xil_printf("Error connecting to server\r\n");
+//		return;
+//	}
+//
+//	opt = 100;
+//	lwip_setsockopt(sd2, SOL_SOCKET, SO_RCVTIMEO, &opt, sizeof(int));
+//
+//	lwip_write(sd2, ack_buf, BUFSIZE);
+
+	xil_printf("Connection Established\r\n");
+
+	memset(recv_buf, '\0', BUFSIZE);
+	memset(send_buf, '\0', BUFSIZE);
+
+	while (1) {
+
+		xil_printf("\r\nWaiting message %d", i);
+		/* read a max of RECV_BUF_SIZE bytes from socket */
+		if ((nr = lwip_read(sd1, recv_buf, BUFSIZE)) <= 0) {
+			xil_printf("%s: error reading from socket %d, closing socket\r\n", __FUNCTION__, sd1);
+			break;
+		}
+		/* Print messages */
+		if (nr > 0) {
+			xil_printf("\r\nUser 2: %s\r\n", recv_buf);
+		}
+
+		xil_printf("Now you can send your message\r\n");
+
+		/*Sending message */
+		xil_printf("Me: ");
+		if(fgets(send_buf, BUFSIZE, stdin) != NULL) {
+			if ((nw = lwip_write(sd2, send_buf, BUFSIZE)) < 0) {
+				xil_printf("Error sending to socket %d\r\n", sd1);
+			}
+		}
+		else {
+			printf("Error fgets!\r\n");
+		}
+
+		i++;
+		memset(recv_buf, '\0', BUFSIZE);
+		memset(send_buf, '\0', BUFSIZE);
+
+	}
+
+	close(sock1);
+	close(sock2);
+}
+
+void iZybo_client_thread() {
+	int sock1 = 0, sock2 = 0, sd1 = 0;
+	struct sockaddr_in addressR, addressW;
+	struct ip_addr servaddr;
+	IP4_ADDR(&servaddr, 147, 83, 81, 222);
+
+	int nr, nw, i = 1;
+
+//	bzero(recv_buf, BUFSIZE);
+//	bzero(send_buf, BUFSIZE);
+	memset(recv_buf, '\0', BUFSIZE);
+	memset(send_buf, '\0', BUFSIZE);
+
+	if ((sock1 = lwip_socket(AF_INET, SOCK_STREAM, 0)) < 0)
+		return;
+
+	addressW.sin_family = AF_INET;
+	addressW.sin_port = htons(write_port1);
+	addressW.sin_addr.s_addr = servaddr.addr;
+
+	if ((sock2 = lwip_socket(AF_INET, SOCK_STREAM, 0)) < 0)
+			return;
+
+	addressR.sin_family = AF_INET;
+	addressR.sin_port = htons(read_port1);
+	addressR.sin_addr.s_addr = servaddr.addr;
+
+	/*Connect to the server*/
+	xil_printf("Waiting User 2 to connect... writing side\r\n");
+	if (lwip_connect(sock1, (struct sockaddr*)&addressW, sizeof(addressW)) < 0) {
+		xil_printf("Error connecting to writing server\r\n");
+		return;
+	}
+	xil_printf("Connected to write\r\n");
+	send_buf[0] = 'B';
+	send_buf[1] = '\0';
+	lwip_write(sock1, send_buf, BUFSIZE);
+
+	xil_printf("Waiting User 2 to connect... reading side\r\n");
+	if (lwip_connect(sock2, (struct sockaddr*)&addressR, sizeof(addressR)) < 0) {
+		xil_printf("Error connecting to reading server\r\n");
+		return;
+	}
+	xil_printf("Connected to read\r\n");
+	lwip_write(sock2, send_buf, BUFSIZE);
+
+	xil_printf("Connection Established\r\n");
+
+	memset(recv_buf, '\0', BUFSIZE);
+	memset(send_buf, '\0', BUFSIZE);
+
+	while (1) {
+
+		xil_printf("Now you can send your message\r\n");
+
+		/*Sending message */
+		xil_printf("Me: ");
+		if(fgets(send_buf, BUFSIZE, stdin) != NULL) {
+			if ((nw = lwip_write(sock1, send_buf, BUFSIZE)) < 0) {
+				xil_printf("Error sending to socket %d\r\n", sd1);
+			}
+		}
+		else {
+			printf("Error fgets!\r\n");
+		}
+
+		xil_printf("\r\nWaiting message %d", i);
+		/* read a max of RECV_BUF_SIZE bytes from socket */
+		if ((nr = lwip_read(sock2, recv_buf, BUFSIZE)) <= 0) {
+			xil_printf("%s: error reading from socket %d, closing socket\r\n", __FUNCTION__, sd1);
+			break;
+		}
+		/* Print messages */
+		if (nr > 0) {
+			xil_printf("\r\nUser 2: %s\r\n", recv_buf);
+		}
+
+		i++;
+		memset(recv_buf, '\0', BUFSIZE);
+		memset(send_buf, '\0', BUFSIZE);
+
+	}
+
+	close(sock1);
+	close(sock2);
+}

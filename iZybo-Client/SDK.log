@@ -1,0 +1,1110 @@
+12:01:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:04:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:13:03 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:13:31 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+12:13:37 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+12:15:16 INFO  : Saving repository preferences.
+12:15:16 INFO  : Reading in cores from local repositories: 
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+12:15:18 INFO  : Cleaning BSP projects in the workspace.
+12:15:42 INFO  : Saving repository preferences.
+12:16:40 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:17:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:17:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:17:35 INFO  : ps7_init is completed.
+12:17:35 INFO  : ps7_post_config is completed.
+12:17:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:25:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:28:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:28:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:28:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:29:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:30:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:30:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:34:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:34:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:34:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:34:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:34:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:37:48 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:38:38 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/Desktop/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:38:49 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:38:49 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:38:49 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\chri.ballesteros\workspace\socket_client_bsp\system.mss
+12:39:11 INFO  : ps7_init is completed.
+12:39:11 INFO  : ps7_post_config is completed.
+12:39:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:39:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:42:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:55:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:58:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:01:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:01:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:05:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:09:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:09:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:10:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:10:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:11:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:17:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:19:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:22:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:24:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:24:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:26:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:26:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:45:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:46:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:47:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:50:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:50:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:50:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:52:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:14:35 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:15:10 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:35:27 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:35:27 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1430] Driver Name is empty
+09:35:27 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:35:27 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:35:58 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/echo_demo_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+09:35:58 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/echo_demo_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+09:36:21 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/echo_demo_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+09:36:21 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/echo_demo_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+09:36:24 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/echo_demo_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+09:36:24 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/echo_demo_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+09:37:58 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:38:09 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:38:18 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:38:56 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:39:00 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+09:39:21 INFO  : ps7_init is completed.
+09:39:21 INFO  : ps7_post_config is completed.
+09:39:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:41:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:42:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:43:49 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:46:40 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:46:48 INFO  : ps7_init is completed.
+09:46:48 INFO  : ps7_post_config is completed.
+09:46:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:53:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:53:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:55:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:03:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:05:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:06:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:07:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:07:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:09:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:10:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:10:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:19:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:23:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:24:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:26:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:26:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:27:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:32:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:32:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:34:43 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:34:52 INFO  : ps7_init is completed.
+10:34:52 INFO  : ps7_post_config is completed.
+10:34:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:38:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:40:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:51:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:54:00 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:54:10 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:54:12 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:54:21 INFO  : ps7_init is completed.
+10:54:21 INFO  : ps7_post_config is completed.
+10:54:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:56:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:03:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:03:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:05:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:07:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:11 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:13:18 INFO  : ps7_init is completed.
+11:13:18 INFO  : ps7_post_config is completed.
+11:13:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:14:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:16:48 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:16:56 INFO  : ps7_init is completed.
+11:16:56 INFO  : ps7_post_config is completed.
+11:16:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:17:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:17:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:18:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:23:25 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:23:34 INFO  : ps7_init is completed.
+11:23:34 INFO  : ps7_post_config is completed.
+11:23:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:25:04 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:29:40 ERROR :  [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:29:40 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:29:40 ERROR : Failed to generate BSP due to invalid mss path
+11:29:40 INFO  : BSP Project P/FinalProject_ESDC_bsp has been successfully migrated.
+11:38:51 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:38:56 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:39:08 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:39:21 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:39:27 INFO  : ps7_init is completed.
+11:39:28 INFO  : ps7_post_config is completed.
+11:39:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:41:29 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:41:39 INFO  : ps7_init is completed.
+11:41:39 INFO  : ps7_post_config is completed.
+11:41:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:47:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:47:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:50:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:32 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:51:55 INFO  : ps7_init is completed.
+11:51:55 INFO  : ps7_post_config is completed.
+11:51:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:54:31 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:54:40 INFO  : ps7_init is completed.
+11:54:40 INFO  : ps7_post_config is completed.
+11:54:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:55:38 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:55:45 INFO  : ps7_init is completed.
+11:55:45 INFO  : ps7_post_config is completed.
+11:55:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:38 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:58:46 INFO  : ps7_init is completed.
+11:58:46 INFO  : ps7_post_config is completed.
+11:58:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:02:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:09:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:13:41 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:13:46 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:16:55 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:16:58 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:17:14 INFO  : ps7_init is completed.
+10:17:14 INFO  : ps7_post_config is completed.
+10:17:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:19:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:41 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:20:49 INFO  : ps7_init is completed.
+10:20:49 INFO  : ps7_post_config is completed.
+10:20:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:21:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:22:33 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:22:43 INFO  : ps7_init is completed.
+10:22:43 INFO  : ps7_post_config is completed.
+10:22:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:28:23 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:32:20 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:32:25 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:32:31 INFO  : ps7_init is completed.
+10:32:31 INFO  : ps7_post_config is completed.
+10:32:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:03 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:36:33 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:36:43 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:36:51 INFO  : ps7_init is completed.
+10:36:51 INFO  : ps7_post_config is completed.
+10:36:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:37:48 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:38:10 INFO  : ps7_init is completed.
+10:38:10 INFO  : ps7_post_config is completed.
+10:38:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:40:28 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:41:00 INFO  : ps7_init is completed.
+10:41:00 INFO  : ps7_post_config is completed.
+10:41:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:48:11 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:48:26 INFO  : ps7_init is completed.
+10:48:26 INFO  : ps7_post_config is completed.
+10:48:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:50:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:51:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:53:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:54:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:54:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:57:07 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:57:33 INFO  : ps7_init is completed.
+10:57:33 INFO  : ps7_post_config is completed.
+10:57:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:58:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:57:41 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:58:33 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:58:42 INFO  : ps7_init is completed.
+11:58:42 INFO  : ps7_post_config is completed.
+11:58:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:43 ERROR : No such port: COM18
+11:58:52 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:59:02 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:59:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:59 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:00:01 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+12:00:12 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+12:00:19 INFO  : ps7_init is completed.
+12:00:19 INFO  : ps7_post_config is completed.
+12:00:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:01:37 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:01:47 INFO  : ps7_init is completed.
+12:01:47 INFO  : ps7_post_config is completed.
+12:01:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:02:16 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:02:25 INFO  : ps7_init is completed.
+12:02:25 INFO  : ps7_post_config is completed.
+12:02:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:03:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:11 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+12:05:34 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+12:05:38 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:05:45 INFO  : ps7_init is completed.
+12:05:45 INFO  : ps7_post_config is completed.
+12:05:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:13:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:15:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:20:50 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+12:20:50 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:20:56 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+12:21:05 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:21:44 INFO  : ps7_init is completed.
+12:21:44 INFO  : ps7_post_config is completed.
+12:21:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:29:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:40:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:23:42 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:52:13 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:52:28 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:52:31 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+10:52:52 INFO  : ps7_init is completed.
+10:52:52 INFO  : ps7_post_config is completed.
+10:52:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:00:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:11 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/Lab2_ESDC/Lab2_ESDC.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:02:24 INFO  : ps7_init is completed.
+11:02:24 INFO  : ps7_post_config is completed.
+11:02:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:05:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:05:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:34:40 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:15 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:15 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:15 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:15 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:27 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:47 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:57 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:57 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:57 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:57 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:36:57 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 1.0 not found in repositories
+11:38:59 INFO  : Saving repository preferences.
+11:38:59 INFO  : Reading in cores from local repositories: 
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+11:39:01 INFO  : Cleaning BSP projects in the workspace.
+11:39:33 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:39:33 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:39:33 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:39:33 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:39:34 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+11:39:54 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:39:54 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:43:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:46:42 INFO  : Processing command line option -hwspec C:/Users/chri.ballesteros/workspace/design_1_wrapper.hdf.
+11:46:45 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:46:46 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+11:47:44 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+11:49:32 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:49:32 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1430] Driver Name is empty
+11:49:32 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:49:32 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:50:56 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:50:56 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:50:56 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:50:56 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:50:57 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+11:51:01 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:01 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:02 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+11:51:03 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:03 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:11 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:11 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:37 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:37 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1430] Driver Name is empty
+11:51:37 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:37 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:38 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:38 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core  of version  not found in repositories
+11:51:38 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:51:38 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:38 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:58 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:58 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1594] Core  of version  not found in repositories
+11:51:58 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:51:58 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:51:58 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:52:01 ERROR :  [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 26 - No IP instance named LEDS present in hardware design
+ [Hsi 55-1403] C:\Users\chri.ballesteros\workspace\FinalProject\FinalProject_ESDC_bsp\system.mss line 32 - No IP instance named SWITCHES present in hardware design
+11:52:14 ERROR : Error generating bsp sources: Failed to generate BSP due to invalid mss path
+11:52:14 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:52:14 ERROR : Failed to regenerate sources for BSP project FinalProject_ESDC_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+11:54:13 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:56:28 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:56:54 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:56:54 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:56:54 ERROR :  [Hsi 55-1430] Driver Name is empty
+11:58:42 INFO  : Refreshed build settings on project iZybo
+12:01:50 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:01:50 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:01:50 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:02:52 ERROR : Error generating bsp sources: Failed to generate BSP due to invalid mss path
+12:02:52 ERROR : Failed to regenerate sources for BSP project FinalProject_ESDC_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+12:03:10 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:10 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:10 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:17 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:17 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:17 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:36 ERROR :  [Hsi 55-1594] Core  of version  not found in repositories
+12:03:36 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:03:49 ERROR : Error generating bsp sources: Failed to generate BSP due to invalid mss path
+12:03:49 ERROR : Failed to regenerate sources for BSP project FinalProject_ESDC_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+12:04:46 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:04:46 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:04:46 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:04:52 ERROR : Error generating bsp sources: Failed to generate BSP due to invalid mss path
+12:04:52 ERROR : Failed to regenerate sources for BSP project FinalProject_ESDC_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+12:05:01 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:05:05 ERROR : Error generating bsp sources: Failed to generate BSP due to invalid mss path
+12:05:05 ERROR : Failed to regenerate sources for BSP project FinalProject_ESDC_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+12:09:43 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+12:09:54 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+12:09:59 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+12:10:01 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+12:11:16 INFO  : Refreshed build settings on project iZybo
+12:14:33 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:28:25 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:29:01 INFO  : ps7_init is completed.
+12:29:01 INFO  : ps7_post_config is completed.
+12:29:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:30:58 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:30:58 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:30:58 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:30:58 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:31:22 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:31:22 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:31:22 ERROR :  [Hsi 55-1430] Driver Name is empty
+12:31:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:37:17 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:37:40 INFO  : ps7_init is completed.
+12:37:40 INFO  : ps7_post_config is completed.
+12:37:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:50:42 INFO  : FPGA configured successfully with bitstream "C:/Users/chri.ballesteros/workspace/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:51:10 INFO  : ps7_init is completed.
+12:51:10 INFO  : ps7_post_config is completed.
+12:51:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:54:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:56:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:57:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:57:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:59:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:36:28 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:36:48 INFO  : Restoring local repository preferences: 
+		 H:\ESDC\XAPP1026\zc702_GigE\repo
+10:39:41 INFO  : FPGA configured successfully with bitstream "C:/Users/adria.gil/Desktop/iZybo-Client/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:40:10 INFO  : ps7_init is completed.
+10:40:10 INFO  : ps7_post_config is completed.
+10:40:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:40:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:42:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:49:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:56:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:06:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:15:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:16:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:19:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:27:22 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,249 @@
+/*
+ * Copyright (c) 2007-2009 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ * Adaptation F. Moll September 2016
+ *
+ */
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "lwipopts.h"
+
+#include "platform_config.h"
+//#include "platform.h"
+
+#include "lwip/sockets.h"
+#include "lwip/sys.h"
+#include "lwip/init.h"
+#include "netif/xadapter.h"
+#include "lwip/dhcp.h"
+#include "config_apps.h"
+#if __arm__
+#include "task.h"
+#include "portmacro.h"
+#include "xil_printf.h"
+int main_thread();
+#endif
+void print_headers();
+void launch_app_threads();
+
+char name[32];
+
+void print_ip(char *msg, struct ip_addr *ip)
+{
+    print(msg);
+    xil_printf("%d.%d.%d.%d\r\n", ip4_addr1(ip), ip4_addr2(ip),
+            ip4_addr3(ip), ip4_addr4(ip));
+}
+
+void print_ip_settings(struct ip_addr *ip, struct ip_addr *mask, struct ip_addr *gw)
+{
+
+    print_ip("Board IP: ", ip);
+    print_ip("Netmask : ", mask);
+    print_ip("Gateway : ", gw);
+}
+
+int main()
+{
+   /*char msg[100];
+   xil_printf("Entra");
+   scanf("%s", msg);
+   print(msg);*/
+   sys_thread_new("main_thrd", (void(*)(void*))main_thread, 0,
+                THREAD_STACKSIZE,
+                DEFAULT_THREAD_PRIO);
+   vTaskStartScheduler();
+    while(1);
+    return 0;
+}
+
+struct netif server_netif;
+
+void network_thread(void *p)
+{
+    struct netif *netif;
+    struct ip_addr ipaddr, netmask, gw;
+    char buf[32];
+    int board = 0;
+    /* the mac address of the board. this should be unique per board */
+    unsigned char mac_ethernet_address[12][6] = {
+       { 0x00, 0x16, 0x3e, 0x28, 0xb8, 0xd5 }, // MAC 1
+       { 0x00, 0x16, 0x3e, 0x7f, 0x9f, 0x39 }, // MAC 2
+       { 0x00, 0x16, 0x3e, 0x7d, 0x7c, 0xde }, // MAC 3
+       { 0x00, 0x16, 0x3e, 0xd7, 0x9f, 0x67 }, // MAC 4
+       { 0x00, 0x16, 0x3e, 0xa4, 0xd7, 0x4b }, // MAC 5
+       { 0x00, 0x16, 0x3e, 0x1c, 0xba, 0x7f }, // MAC 6
+       { 0x00, 0x16, 0x3e, 0xa4, 0xd2, 0x13 }, // MAC 7
+       { 0x00, 0x16, 0x3e, 0x7d, 0x25, 0x8d }, // MAC 8
+       { 0x00, 0x16, 0x3e, 0x8a, 0x79, 0x38 }, // MAC 9
+       { 0x00, 0x16, 0x3e, 0x0f, 0xea, 0x85 }, // MAC 10
+       { 0x00, 0x16, 0x3e, 0x54, 0x66, 0xcb }, // MAC 11
+       { 0x00, 0x16, 0x3e, 0xfa, 0xf6, 0xab }  // MAC 12
+    };
+    unsigned int ip_address[12][4] = {
+       { 147, 83, 81, 221 }, // IP 1
+       { 147, 83, 81, 222 }, // IP 2
+       { 147, 83, 81, 223 }, // IP 3
+       { 147, 83, 81, 224 }, // IP 4
+       { 147, 83, 81, 225 }, // IP 5
+       { 147, 83, 81, 226 }, // IP 6
+       { 147, 83, 81, 227 }, // IP 7
+       { 147, 83, 81, 228 }, // IP 8
+       { 147, 83, 81, 229 }, // IP 9
+       { 147, 83, 81, 230 }, // IP 10
+       { 147, 83, 81, 231 }, // IP 11
+       { 147, 83, 81, 232 }  // IP 12
+    };
+
+    netif = &server_netif;
+
+    /* Ask for user's name */
+    while(!board) {
+    	xil_printf("Who are you? ");
+		fgets(name, sizeof(name), stdin);
+		if(name[0]!='\r' && name[0]!='\n') {
+			strtok(name, "\n");
+			board = 1;
+		} else {
+			xil_printf("Empty name or not valid. ");
+		}
+    }
+    xil_printf("Hello, %s, welcome to iZybo!\r\n", name);
+    board = 0;
+
+    /* Ask for board number */
+    while(!board) {
+       xil_printf("Introduce your board number: ");
+       fgets(buf, sizeof(buf), stdin);
+       if (buf[0]>'0' && buf[0]<='9' && buf[1]=='\r') {
+          board = (int)buf[0] - '0';
+       }
+       else if (buf[0]=='1' && buf[1]>='0' && buf[1]<'3' && buf[2]=='\r') {
+          board = 10 + (int)buf[1] - '0';
+       }
+       else {
+          xil_printf("Wrong value.\r\n");
+       }
+   }
+   xil_printf("Success! You are using board %d\r\n", board);
+
+    /* initliaze IP addresses to be used */
+   ipaddr.addr = 0;
+   gw.addr = 0;
+   netmask.addr = 0;
+    IP4_ADDR(&ipaddr,  ip_address[board-1][0], ip_address[board-1][1],  ip_address[board-1][2], ip_address[board-1][3]);
+    IP4_ADDR(&netmask, 255, 255, 0, 0);
+    IP4_ADDR(&gw,      147, 83, 81, 230);
+
+    /* print out IP settings of the board */
+    print("\r\n\r\n");
+    print("-----lwIP Socket Mode Demo Application ------\r\n");
+
+    // print_ip_settings(&ipaddr, &netmask, &gw);
+    /* print all application headers */
+
+    /* Add network interface to the netif_list, and set it as default */
+    if (!xemac_add(netif, &ipaddr, &netmask, &gw, mac_ethernet_address[board-1], PLATFORM_EMAC_BASEADDR)) {
+        xil_printf("Error adding N/W interface\r\n");
+        return;
+    }
+    netif_set_default(netif);
+
+    /* specify that the network if is up */
+    netif_set_up(netif);
+
+    /* start packet receive thread - required for lwIP operation */
+    sys_thread_new("xemacif_input_thread", (void(*)(void*))xemacif_input_thread, netif,
+            THREAD_STACKSIZE,
+            DEFAULT_THREAD_PRIO);
+
+    launch_app_threads();
+
+    return;
+}
+
+int main_thread()
+{
+   /* initialize lwIP before calling sys_thread_new */
+    lwip_init();
+
+    /* any thread using lwIP should be created using sys_thread_new */
+    sys_thread_new("NW_THRD", network_thread, NULL,
+            THREAD_STACKSIZE,
+            DEFAULT_THREAD_PRIO);
+
+    while (1) {
+
+
+      if (server_netif.ip_addr.addr) {
+         printf("IP request success\r\n");
+         print_ip_settings(&(server_netif.ip_addr), &(server_netif.netmask), &(server_netif.gw));
+         /* print all application headers */
+         print_headers();
+         /* now we can start application threads */
+         //launch_app_threads();
+         break;
+      }
+
+   }
+#ifdef OS_IS_FREERTOS
+   vTaskDelete(NULL);
+#endif
+
+
+    return 0;
+}
+#ifdef __arm__
+void vApplicationMallocFailedHook( void )
+{
+   /* vApplicationMallocFailedHook() will only be called if
+   configUSE_MALLOC_FAILED_HOOK is set to 1 in FreeRTOSConfig.h.  It is a hook
+   function that will get called if a call to pvPortMalloc() fails.
+   pvPortMalloc() is called internally by the kernel whenever a task, queue or
+   semaphore is created.  It is also called by various parts of the demo
+   application.  If heap_1.c or heap_2.c are used, then the size of the heap
+   available to pvPortMalloc() is defined by configTOTAL_HEAP_SIZE in
+   FreeRTOSConfig.h, and the xPortGetFreeHeapSize() API function can be used
+   to query the size of free heap space that remains (although it does not
+   provide information on how the remaining heap might be fragmented). */
+   xil_printf("Memory Allocation Error\r\n");
+   taskDISABLE_INTERRUPTS();
+   for( ;; );
+}
+/*-----------------------------------------------------------*/
+
+void vApplicationStackOverflowHook( xTaskHandle *pxTask, signed char *pcTaskName )
+{
+   ( void ) pcTaskName;
+   ( void ) pxTask;
+
+   /* vApplicationStackOverflowHook() will only be called if
+   configCHECK_FOR_STACK_OVERFLOW is set to either 1 or 2.  The handle and name
+   of the offending task will be passed into the hook function via its
+   parameters.  However, when a stack has overflowed, it is possible that the
+   parameters will have been corrupted, in which case the pxCurrentTCB variable
+   can be inspected directly. */
+   xil_printf("Stack Overflow in %s\r\n", pcTaskName);
+   taskDISABLE_INTERRUPTS();
+   for( ;; );
+}
+void vApplicationSetupHardware( void )
+{
+
+}
+
+#endif
+

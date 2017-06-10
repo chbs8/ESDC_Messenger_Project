@@ -1,0 +1,132 @@
+/*
+ * oneSocket.c
+ *
+ *  Created on: 11/05/2017
+ *      Author: chri.ballesteros
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+
+#include "lwip/inet.h"
+#include "lwip/sockets.h"
+#include "lwip/sys.h"
+#include "lwipopts.h"
+
+#include "config_apps.h"
+#ifdef __arm__
+#include "xil_printf.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#endif
+
+#define SEND_BUFSIZE (1440)
+
+static char recv_buf[SEND_BUFSIZE];
+static char send_buf[SEND_BUFSIZE];
+
+u16_t read_port2 = 5001;
+u16_t write_port2 = 5002;
+
+/* thread spawned for each connection */
+void process_write2_request(void *p)
+{
+	int sd = (int)p;
+	int n;
+
+	bzero(send_buf, SEND_BUFSIZE);
+
+	xil_printf("Now you can send your messages\r\n");
+
+	while (1) {
+
+		// Sending message
+		xil_printf("Me: ");
+		if(fgets(send_buf, SEND_BUFSIZE, stdin) != NULL) {
+			if ((n = write(sd, send_buf, SEND_BUFSIZE)) < 0) {
+				xil_printf("Error sending to socket %d\r\n", p);
+			}
+		}
+		else {
+			printf("Error fgets!\r\n");
+		}
+
+		memset(send_buf, '\0', SEND_BUFSIZE);
+		//sleep(2);
+	}
+
+	/* close connection */
+	close(sd);
+	vTaskDelete(NULL);
+}
+
+void process_read2_request(void *p)
+{
+	int sd = (int)p;
+	int n;
+
+	bzero(recv_buf, SEND_BUFSIZE);
+
+	xil_printf("Connected\r\n");
+
+	xil_printf("Waiting messages");
+	/* read a max of RECV_BUF_SIZE bytes from socket */
+	while ((n = read(sd, recv_buf, SEND_BUFSIZE)) > 0) {
+		xil_printf("\r\nUser 2: %s\r\n", recv_buf);
+		memset(recv_buf, '\0', SEND_BUFSIZE);
+
+		/* break if the recved message = "quit" */
+		if (!strncmp(recv_buf, "quit", 4))
+			break;
+
+		/* break if client closed connection */
+		if (n <= 0)
+			break;
+
+	}
+
+	/* close connection */
+	close(sd);
+	vTaskDelete(NULL);
+}
+
+void oneSocket_application_thread()
+{
+	int sock, new_sd;
+	struct sockaddr_in address, remote;
+	int size;
+
+	if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+		return;
+
+	address.sin_family = AF_INET;
+	address.sin_port = htons(read_port2);
+	address.sin_addr.s_addr = INADDR_ANY;
+
+	if (bind(sock, (struct sockaddr *)&address, sizeof (address)) < 0)
+		return;
+
+	listen(sock, 0);
+
+	xil_printf("\r\nWaiting User 2 to connect...\r\n");
+
+	size = sizeof(remote);
+
+	if ((new_sd = accept(sock, (struct sockaddr *)&remote, (socklen_t *)&size)) > 0) {
+		xil_printf("\r\nSocket accepted: %d\r\n", new_sd);
+		sys_thread_new("writes", process_write2_request,
+			(void*)new_sd,
+			THREAD_STACKSIZE,
+			DEFAULT_THREAD_PRIO);
+		sys_thread_new("reads", process_read2_request,
+			(void*)new_sd,
+			THREAD_STACKSIZE,
+			DEFAULT_THREAD_PRIO);
+	} else {
+		xil_printf("Error on accept! Number %d\r\n", new_sd);
+	}
+
+}
+
+

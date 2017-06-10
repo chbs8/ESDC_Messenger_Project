@@ -1,0 +1,4 @@
+11:49:59 ERROR :  License Feature SDK is not available.
+11:50:02 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:51:42 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:51:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457

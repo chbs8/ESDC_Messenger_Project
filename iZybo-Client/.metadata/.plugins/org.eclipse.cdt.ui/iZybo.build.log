@@ -1,0 +1,21 @@
+11:27:18 **** Auto Build of configuration Debug for project iZybo ****
+make all 
+'Building file: ../src/iZybo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../iZybo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iZybo.d" -MT"src/iZybo.d" -o "src/iZybo.o" "../src/iZybo.c"
+'Finished building: ../src/iZybo.c'
+' '
+'Building target: iZybo.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../iZybo_bsp/ps7_cortexa9_0/lib -o "iZybo.elf"  ./src/dispatch.o ./src/iZybo.o ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: iZybo.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size iZybo.elf  |tee "iZybo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 167460	   3176	11028412	11199048	 aae248	iZybo.elf
+'Finished building: iZybo.elf.size'
+' '
+
+11:27:19 Build Finished (took 515ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;FinalProject_ESDC/src/echo.c&apos; to &apos;server.c&apos;" description="Rename resource &apos;echo.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/echo.c" name="server.c" stamp="1493972624879" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;FinalProject_ESDC/src/Client.c&apos; to &apos;client.c&apos;" description="Rename resource &apos;Client.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Client.c" name="client.c" stamp="1493972660588" updateReferences="true"/>
+</session>

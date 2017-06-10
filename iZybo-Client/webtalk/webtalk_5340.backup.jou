@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:07:39 MDT 2014
+# 
+# Start of session at: Tue May 23 11:43:09 2017
+# Process ID: 4656
+# Log file: C:/Users/chri.ballesteros/workspace/webtalk/webtalk.log
+# Journal file: C:/Users/chri.ballesteros/workspace/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
